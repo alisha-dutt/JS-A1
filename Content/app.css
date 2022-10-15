@@ -15,6 +15,9 @@ h1,h2,h3,h4,p,a{
 a:hover{
     color: #a44624;
 }
+.navbar-brand{
+    font-size: 2em;
+}
 .italic{
     font-style: italic;
 }
@@ -57,7 +60,7 @@ div.img{
     background-repeat: no-repeat;
 }
 .artist{
-    background-image: url(../Assets/Images/artist.jpg);
+    background-image: url(../Assets/Images/logo-name-image.PNG);
     background-size: contain;
     min-height: 400px;
     background-repeat: no-repeat;
