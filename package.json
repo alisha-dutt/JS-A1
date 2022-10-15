@@ -1,9 +1,9 @@
 {
-  "name": "comp2112-week5",
+  "name": "JS-A1",
   "version": "1.0.0",
-  "description": "Demp app for week 5",
+  "description": "Js Assingment 1",
   "main": "index.js",
-  "repository": "https://github.com/alisha-dutt/COMP2122-week5.git",
+  "repository": "https://github.com/alisha-dutt/JS-A1.git",
   "author": "alisha-dutt <200490302@student.georgianc.on.ca>",
   "license": "MIT",
   "dependencies": {

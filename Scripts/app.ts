@@ -4,7 +4,7 @@
 (function () {
     /**
      * This function loads data asynchrounously from a URL.
-     *It calls the callback function when the data loading is complete
+     * It calls the callback function when the data loading is complete
      * @param {string} method
      * @param {string} url
      * @param {function} callback
@@ -19,40 +19,9 @@
             }
         });
     }
+  
     /**
-     * this method saves our data to localStorge
-     *
-     * @param {any[]} contactList
-     */
-    function SaveContactListData(contactList: any[]): void {
-        let count = 0;
-        for (const contact of contactList) {
-            let newContact = new Contact(contact.FullName, contact.ContactNumber, contact.EmailAddress);
-            //  console.log(newContact.toString());
-            localStorage.setItem(count.toString(), newContact.toJSON());
-            count++;
-        }
-    }
-    /**
-     * this method reads our data from the localStorage and returns a contact Array
-     *
-     * @return {*}  {Contact[]}
-     */
-    function LoadCOntactListData(): Contact[] {
-        // create an empty contact array container
-        let ContactArray = new Array<Contact>();
-        let keys = Object.keys(localStorage);
-        for (let key of keys) {
-            let newContact = new Contact();
-            console.log(localStorage.getItem(key));
-            newContact.fromJSON(localStorage.getItem(key));
-            console.log(newContact.toString());
-            ContactArray.push(newContact);
-        }
-        return ContactArray;
-    }
-    /**
-     * This method loads the header and page content 
+     * This method loads the header and the following page contents
      */
     function LoadHeader(): void {
         console.log("Loading Header...");
@@ -60,23 +29,6 @@
             // console.log(html_data);
             $("header").html(html_data);
             $("li>a#Home").addClass("active");
-            // switch (document.title) {
-            //     case "Home":
-            //         $("#homePage").addClass("active");
-            //         break;
-            //     case "About Us":
-            //         $("#aboutPage").addClass("active");
-            //         break;
-            //     case "Our Projects":
-            //         $("#projectsPage").addClass("active");
-            //         break;
-            //     case "Our Services":
-            //         $("#servicesPage").addClass("active");
-            //         break;
-            //     case "Contact Us":
-            //         $("#contactPage").addClass("active");
-            //         break;
-            // }
             $("li>a").on("click", function(event)
             {
                 event.preventDefault();
@@ -105,7 +57,7 @@
         $.get("./Views/content/"+contentLink+".html", function (html_data){$("main").html(html_data);})
         }
         /**
-         * this method ad the foooter to each page.
+         * this method adds the foooter to each page.
          */
     function LoadFooter(): void {
         console.log("Loading Footer...");

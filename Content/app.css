@@ -1,0 +1,123 @@
+/* COLORS:
+BLUE -4ABDAC
+YELLOW -F7B733
+ORANGE -FC4A1A
+WHITE -DFDCE3
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+/* font-family: 'Libre Baskerville', serif; */
+
+h1,h2,h3,h4,p,a{
+    color: #461d0e;
+    font-family: 'Libre Baskerville', serif;
+}
+a:hover{
+    color: #a44624;
+}
+.italic{
+    font-style: italic;
+}
+body{
+    background-image: url('../Assets/Images/Yashsvi-HomePageDesign.png');
+    background-size:cover;
+    min-height: 780px;
+    background-repeat: no-repeat;
+}
+.bg-custom{
+    background-color:#dfd7d4db;
+    min-height: 700px;
+}
+.bg-custom-moodboard{
+    /* background-color:#ffffffbf; */
+    background-color:#dfd7d4db;
+    min-height: 700px;
+}
+div.img{
+    max-height: 400px;
+    background-color: #461d0e92;
+}
+.img-1{
+    background-image: url(../Assets/Images/me.png);
+    background-size: contain;
+    min-height: 400px;
+    background-repeat: no-repeat;
+}
+
+.inspiration{
+    background-image: url(../Assets/Images/inspiration.jpeg);
+    background-size: contain;
+    min-height: 400px;
+    background-repeat: no-repeat;
+}
+.nature{
+    background-image: url(../Assets/Images/nature.jpg);
+    background-size: contain;
+    min-height: 400px;
+    background-repeat: no-repeat;
+}
+.artist{
+    background-image: url(../Assets/Images/artist.jpg);
+    background-size: contain;
+    min-height: 400px;
+    background-repeat: no-repeat;
+}
+
+.moodboard{
+    background-color: transparent;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.img-2{
+    background-image: url(../Assets/Images/moodboard-1.png);
+    background-size: contain;
+    min-height: 480px;
+    background-repeat: no-repeat;
+}
+.img-3{
+    background-image: url(../Assets/Images/moodboard-2.png);
+    background-size: contain;
+    min-height: 480px;
+    background-repeat: no-repeat;
+}
+.img-4{
+    background-image: url(../Assets/Images/moodboard-3.png);
+    background-size: contain;
+    min-height: 480px;
+    background-repeat: no-repeat;
+}
+.img-5{
+    background-image: url(../Assets/Images/moodboard-4.png);
+    background-size: contain;
+    min-height: 480px;
+    background-repeat: no-repeat;
+}
+
+.web-1{
+    background-image: url(../Assets/Images/Yashsvi-web-desktop.PNG);
+    background-size: contain;
+    min-height: 500px;
+    background-repeat: no-repeat;
+}
+.web-2{
+    background-image: url(../Assets/Images/Yashsvi-web-mobile.png);
+    background-size: contain;
+    min-height: 450px;
+    background-repeat: no-repeat;
+}
+.services-banner{
+    background-image: url(../Assets/Images/services-banner.png);
+    background-size: contain;
+    min-height: 450px;
+    background-repeat: no-repeat;
+}
+/* .contact-banner{
+    background-image: url(../Assets/Images/contact.png);
+    background-size: contain;
+    min-height: 600px;
+    background-repeat: no-repeat;
+} */
+.list-group-item{
+    background-color: transparent;
+}
