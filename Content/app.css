@@ -109,6 +109,18 @@ div.img{
     min-height: 450px;
     background-repeat: no-repeat;
 }
+.web-3{
+    background-image: url(../Assets/Images/web-3.PNG);
+    background-size: contain;
+    min-height: 600px;
+    background-repeat: no-repeat;
+}
+.web-4{
+    background-image: url(../Assets/Images/web-4.PNG);
+    background-size: contain;
+    min-height: 600px;
+    background-repeat: no-repeat;
+}
 .services-banner{
     background-image: url(../Assets/Images/services-banner.png);
     background-size: contain;

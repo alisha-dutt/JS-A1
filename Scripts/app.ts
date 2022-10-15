@@ -67,6 +67,15 @@
         });
     }
 
+    function redirectContent():void
+    {
+        console.log("redirecting...");
+        let redirectLink=document.getElementById('contact');
+        $.get("/Views/content/profile.html", function (html_data) {
+            $("profile").html(html_data);
+        });
+    }
+
     function Start() {
         console.log("App started");
         document.title="Home";
