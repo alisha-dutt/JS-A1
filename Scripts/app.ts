@@ -34,22 +34,15 @@
     {
         console.log("Loading Content...");
         let contentLink= document.title.toLowerCase();
-<<<<<<< HEAD
-        $.get("./JS-A1/Views/content/"+contentLink+".html", function (html_data){$("main").html(html_data);})
-=======
         $.get("./JS-A1//Views/content/"+contentLink+".html", function (html_data){$("main").html(html_data);})
->>>>>>> 39aeb9d8e834978d0e3c0f65f3e10866a036d731
         }
         /**
          * this method adds the foooter to each page.
          */
     function LoadFooter(): void {
         console.log("Loading Footer...");
-<<<<<<< HEAD
+
         $.get("/JS-A1/Views/components/footer.html", function (html_data) {
-=======
-        $.get("/JS-A1//Views/components/footer.html", function (html_data) {
->>>>>>> 39aeb9d8e834978d0e3c0f65f3e10866a036d731
             // console.log(html_data);
             $("footer").html(html_data);
         });
@@ -59,11 +52,7 @@
     {
         console.log("redirecting...");
         let redirectLink=document.getElementById('contact');
-<<<<<<< HEAD
-        $.get("/JS-A1/Views/content/profile.html", function (html_data) {
-=======
         $.get("/JS-A1//Views/content/profile.html", function (html_data) {
->>>>>>> 39aeb9d8e834978d0e3c0f65f3e10866a036d731
             $("profile").html(html_data);
         });
     }
